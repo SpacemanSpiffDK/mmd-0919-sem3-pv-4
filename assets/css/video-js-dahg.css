@@ -10,19 +10,19 @@ video {
 
 /* Change color of progress bar played bar */
 
-.video-js .vjs-play-progress {
+.vjs-dahg.video-js .vjs-play-progress {
     background-color: purple;
 }
 
 /* Change color of current time dot */
 
-.video-js .vjs-play-progress:before {
+.vjs-dahg.video-js .vjs-play-progress:before {
     color: red;
 }
 
 /* Place the controls at the top */
 
-.video-js .vjs-control-bar {
+.vjs-dahg.video-js .vjs-control-bar {
     bottom: initial;
     top: 0;
 }
@@ -32,8 +32,9 @@ video {
     https://flatuicolors.com/ 
 
     You have 45 minutes to create you own skin, be as creative as you want
+    Don't forget the play button ▶️ on the poster :-)
+    
     I am available for questions and help in teams chat and VoIP 
-
     Come back afterwards, we'll talk about the issues that arose and see some of your great work
 */
 
