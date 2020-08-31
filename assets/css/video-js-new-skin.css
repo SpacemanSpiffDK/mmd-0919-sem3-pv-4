@@ -1,0 +1,40 @@
+/* remove focus outline */
+video {
+    outline: none;
+}
+
+/* 
+    View the player in inspector and find the css selectors you want to change 
+    Here are 3 examples
+*/
+
+/* Change color of progress bar played bar */
+
+.video-js .vjs-play-progress {
+    background-color: purple;
+}
+
+/* Change color of current time dot */
+
+.video-js .vjs-play-progress:before {
+    color: red;
+}
+
+/* Place the controls at the top */
+
+.video-js .vjs-control-bar {
+    bottom: initial;
+    top: 0;
+}
+
+/* 
+    Create your own skin for the player, using one of the color schemes from this website: 
+    https://flatuicolors.com/ 
+
+    You have 45 minutes to create you own skin, be as creative as you want
+    I am available for questions and help in teams chat and VoIP 
+
+    Come back afterwards, we'll talk about the issues that arose and see some of your great work
+*/
+
+
