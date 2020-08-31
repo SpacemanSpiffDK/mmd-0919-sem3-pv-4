@@ -11,7 +11,3 @@ const options = {
 
 // activate the video
 videojs('video1', options);
-
-
-
-
