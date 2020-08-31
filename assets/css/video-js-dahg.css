@@ -10,22 +10,13 @@ video {
 
 /* Change color of progress bar played bar */
 
-.vjs-dahg.video-js .vjs-play-progress {
-    background-color: purple;
-}
 
 /* Change color of current time dot */
 
-.vjs-dahg.video-js .vjs-play-progress:before {
-    color: red;
-}
 
 /* Place the controls at the top */
 
-.vjs-dahg.video-js .vjs-control-bar {
-    bottom: initial;
-    top: 0;
-}
+
 
 /* 
     Create your own skin for the player, using one of the color schemes from this website: 
