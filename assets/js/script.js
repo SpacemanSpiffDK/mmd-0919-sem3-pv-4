@@ -2,12 +2,16 @@
 // UCN MMD 2020
 
 // Setting options in a json object
-let options = {
+const options = {
     "controls": true, 
     "autoplay": false, 
     "preload": "auto", 
     "muted": false
 };
 
-// try the different json-objects here
+// activate the video
 videojs('video1', options);
+
+
+
+
